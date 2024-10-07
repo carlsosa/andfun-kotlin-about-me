@@ -11,4 +11,16 @@ limitations under the License. -->
 
 <resources>
     <string name="app_name">About Me</string>
+    <string name="name">Carlos Sosa</string>
+    <string name="yellow_star">Yello star</string>
+    <string name="bio">Hola, Soy Carlos
+\n\n Me Gustan las peliculas .
+\n\n de accion y artes marciales.
+\n\n Me gusta comer pescado, pollo y cerdo al horno, a la plancha y estofados,
+\n y algunas veces voy a la playa a comer pescado,
+\n y en ocasiones  voy a comer parrilladas de costillas de cerdo,
+\n\n mis preferidas son las de salsa de Guayaba con yuca y cebollitas.
+    </string>
+    <string name="what_is_your_nickname">Cual es tu sobrenombre?</string>
+    <string name="done">Hecho</string>
 </resources>
