@@ -24,6 +24,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android.aboutme.databinding.ActivityMainBinding
 
 
 /**
@@ -37,7 +38,8 @@ import androidx.appcompat.app.AppCompatActivity
  *       and how to display data in views using the data binding object.
  */
 class MainActivity : AppCompatActivity() {
-
+    private lateinit var binding: ActivityMainBinding
+    private val myName: MyName = MyName("Carlos Sosa")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
